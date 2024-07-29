@@ -33,7 +33,7 @@ input_data_reshaped = input_data_as_numpy_array.reshape(1,-1)
 
 
 
-heart_data = pd.read_csv('C:\\Users\\Siddhartha Anand\\Desktop\\Heart Disease Prediction\\heart_disease_data.csv')
+heart_data = pd.read_csv('heart_disease_data.csv')
 
 X = heart_data.drop(columns='target', axis = 1)
 Y = heart_data['target']
